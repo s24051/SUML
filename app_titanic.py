@@ -11,7 +11,7 @@ import pathlib
 from pathlib import Path
 
 temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+pathlib.WindowsPath = pathlib.PosixPath
 
 # nie bardzo wiem jak się dobrać do modelu, żeby dostać min/max/mean, zatem robie jak w poprzednim zadaniu
 csv_df = pd.read_csv('./1/DSP_1.csv')
