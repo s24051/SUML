@@ -1,0 +1,7 @@
+# pierwsze dwa anakondą
+streamlit
+pandas
+# ręcznie pipem, bo anakonda miała jakieś konflikty nie do rozwiązania -.-
+scikit-learn
+scipy
+matplotlib
